@@ -14,6 +14,7 @@ import java.util.stream.IntStream;
 
 @Component
 public class DatabaseLoader implements ApplicationRunner {
+
     private final PostRepository postRepository;
     private final AuthorRepository authorRepository;
 
